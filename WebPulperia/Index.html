@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Pulpería Mendoza</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <nav>
+
+        <!-- IZQUIERDA (ADMIN) -->
+        <div class="nav-izquierda">
+            <div id="menuAdmin" style="display:none; position:relative;">
+                <button onclick="toggleAdminMenu()">⚙️</button>
+
+                <div id="adminOpciones">
+                    <p><a href="#">Ventas</a></p>
+                    <p><a href="#">Inventario</a></p>
+                    <p><a href="#">Usuarios</a></p>
+                    <p><button onclick="logout()">Salir</button></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- CENTRO (MENÚ) -->
+        <ul id="menu">
+            <li><a href="index.html">Inicio</a></li>
+
+            <li class="dropdown">
+                <a href="#">Productos</a>
+                <ul class="submenu">
+                    <li><a href="paginas/granos.html">🌾 Granos</a></li>
+                    <li><a href="paginas/aceites.html">🛢️ Aceites</a></li>
+                    <li><a href="paginas/bebidas.html">🥤 Bebidas</a></li>
+                    <li><a href="paginas/limpieza.html">🧼 Limpieza</a></li>
+                    <li><a href="paginas/ropa.html">👕 Ropa</a></li>
+                    <li><a href="paginas/verduras.html">🥦 Verduras</a></li>
+                    <li><a href="paginas/lacteos.html">🥛 Lácteos</a></li>
+                    <li><a href="paginas/carnes.html">🍗 Carnes</a></li>
+                </ul>
+            </li>
+
+            <li><a href="paginas/contacto.html">Atención</a></li>
+            <li id="btnLogin"><a href="paginas/login.html">Login</a></li>
+
+           <li id="usuarioInfo" class="dropdown" style="display:none;">
+
+                <a href="#" id="nombreUsuario"></a>
+
+                <ul class="submenu" id="submenuUsuario">
+                    <li><a href="#" onclick="logout()">Cerrar sesión</a></li>
+                </ul>
+
+            </li>
+        </ul>
+
+        <!-- DERECHA (CARRITO) -->
+        <div class="nav-derecha">
+            <div class="carrito-icono" onclick="irCarrito()">
+                🛒
+                <span id="contador">0</span>
+            </div>
+        </div>
+
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Bienvenido a Pulpería Mendoza</h1>
+    <p>Productos básicos al mejor precio</p>
+</section>
+
+<!-- PRODUCTOS DESTACADOS -->
+<section>
+    <h2>🔥 Productos Destacados</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <img src="Imagenes/pulperiaimagenes/arrozmaria.jpg" alt="Arroz">
+            <h3>Arroz María</h3>
+
+            <div class="producto-info">
+                <p>Arroz de consumo básico, vendido por libra. Ideal para comidas diarias.</p>
+            </div>
+
+            <p class="precio">C$18 por libra</p>
+            <button class="btn-comprar"
+                onclick="agregarCarrito('Arroz María', 18, '/Imagenes/pulperiaimagenes/arrozmaria.jpg')">
+                Agregar
+            </button>
+
+        <div class="card">
+            <img src="Imagenes/pulperiaimagenes/aceite.jpg" alt="Aceite">
+            <h3>Aceite (por litro)</h3>
+            <p class="precio">C$70 por litro</p>
+            <button onclick="agregarCarrito('Aceite', 70)">Agregar</button>
+        </div>
+
+    </div>
+</section>
+
+<!-- CATEGORÍAS PRINCIPALES -->
+<section>
+    <h2>📂 Categorías Populares</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>Granos</h3>
+            <a href="paginas/granos.html" class="btn">Ver</a>
+        </div>
+
+        <div class="card">
+            <h3>Aceites</h3>
+            <a href="aceites.html" class="btn">Ver</a>
+        </div>
+
+        <div class="card">
+            <h3>Bebidas</h3>
+            <a href="bebidas.html" class="btn">Ver</a>
+        </div>
+
+        <div class="card">
+            <h3>Lácteos</h3>
+            <a href="lacteos.html" class="btn">Ver</a>
+        </div>
+
+    </div>
+</section>
+
+<script src="js/app.js"></script>
+<footer class="footer">
+    <div class="footer-contenido">
+
+        <div>
+            <h3>🛒 Pulpería Mendoza</h3>
+            <p>Tu tienda de confianza</p>
+        </div>
+
+        <div>
+            <h4>Contacto</h4>
+            <p>📍 Nicaragua Barrio San Cristobal 3 Cuadras al sur 1/2 abajo, 1/2 al sur, calle #7</p>
+            <p>📞 8359-0578</p>
+        </div>
+
+        <div>
+            <h4>Enlaces</h4>
+            <p><a href="#">Inicio</a></p>
+            <p><a href="#">Productos</a></p>
+            <p><a href="#">Atención</a></p>
+        </div>
+
+    </div>
+
+    <p class="copy">© 2026 Pulpería Mendoza</p>
+</footer>
+</body>
+</html>

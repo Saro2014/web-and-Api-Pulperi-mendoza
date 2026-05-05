@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Pulpería Mendoza</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h2>🛒 Pulpería Mendoza</h2>
+
+        <ul id="menu">
+            <li><a href="../index.html">Inicio</a></li>
+         <li class="dropdown">
+                <a href="#">Productos</a>
+                <ul class="submenu">
+                    <li><a href="paginas/granos.html">🌾 Granos</a></li>
+                    <li><a href="paginas/aceites.html">🛢️ Aceites</a></li>
+                    <li><a href="paginas/bebidas.html">🥤 Bebidas</a></li>
+                    <li><a href="paginas/limpieza.html">🧼 Limpieza</a></li>
+                    <li><a href="paginas/ropa.html">👕 Ropa</a></li>
+                    <li><a href="paginas/verduras.html">🥦 Verduras</a></li>
+                    <li><a href="paginas/lacteos.html">🥛 Lácteos</a></li>
+                    <li><a href="paginas/carnes.html">🍗 Carnes</a></li>
+                </ul>
+            </li>
+            <li><a href="contacto.html">Atención</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="login-container">
+
+    <div class="login-box">
+
+        <h1>🔐 Iniciar Sesión</h1>
+
+        <input type="text" id="usuario" placeholder="Usuario">
+
+        <input type="password" id="password" placeholder="Contraseña">
+
+        <button onclick="login()">Ingresar</button>
+
+        <p class="registro-link">
+            ¿Eres nuevo usuario?
+            <a href="../paginas/Registrarse.html">Regístrate aquí</a>
+        </p>
+
+    </div>
+
+</main>
+
+<script src="../js/app.js"></script>
+
+</body>
+</html>
