@@ -4506,23 +4506,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\carme\\.nuget\\packages\\": {},
+    "C:\\Users\\Brosiris\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\carme\\source\\repos\\PulperiaAPI\\PulperiaAPI\\PulperiaAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Brosiris\\Downloads\\web-and-Api-Pulperi-mendoza-main\\PulperiaAPI\\PulperiaAPI\\PulperiaAPI.csproj",
       "projectName": "PulperiaAPI",
-      "projectPath": "C:\\Users\\carme\\source\\repos\\PulperiaAPI\\PulperiaAPI\\PulperiaAPI.csproj",
-      "packagesPath": "C:\\Users\\carme\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\carme\\source\\repos\\PulperiaAPI\\PulperiaAPI\\obj\\",
+      "projectPath": "C:\\Users\\Brosiris\\Downloads\\web-and-Api-Pulperi-mendoza-main\\PulperiaAPI\\PulperiaAPI\\PulperiaAPI.csproj",
+      "packagesPath": "C:\\Users\\Brosiris\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Brosiris\\Downloads\\web-and-Api-Pulperi-mendoza-main\\PulperiaAPI\\PulperiaAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\carme\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Brosiris\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4535,6 +4535,7 @@
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {}
         }
@@ -4549,10 +4550,11 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net8.0": {
+        "framework": "net8.0",
         "targetAlias": "net8.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": {
@@ -4581,6 +4583,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.26, 8.0.26]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[8.0.26, 8.0.26]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.26, 8.0.26]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.26, 8.0.26]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -4589,7 +4609,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

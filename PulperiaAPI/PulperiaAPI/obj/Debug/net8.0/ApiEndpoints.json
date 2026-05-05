@@ -43,6 +43,22 @@
   },
   {
     "ContainingType": "PulperiaAPI.Controllers.ProductosController",
+    "Method": "ObtenerPorCategoria",
+    "RelativePath": "api/Productos/categoria/{categoria}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoria",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PulperiaAPI.Controllers.ProductosController",
     "Method": "ObtenerDestacados",
     "RelativePath": "api/Productos/destacados",
     "HttpMethod": "GET",

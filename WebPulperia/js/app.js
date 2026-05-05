@@ -342,7 +342,15 @@ function cargarProductos() {
 
     if (!contenedor) return;
 
-    fetch("https://localhost:7165/api/productos")
+    let categoria = contenedor.dataset.categoria;
+
+    let url = "https://localhost:7165/api/productos";
+
+    if (categoria) {
+        url = `https://localhost:7165/api/productos/categoria/${categoria}`;
+    }
+
+    fetch(url)
         .then(response => response.json())
         .then(productos => {
 
@@ -378,7 +386,6 @@ function cargarProductos() {
         .catch(error => {
             console.log("Error cargando productos:", error);
         });
-
 }
 function cargarDestacados() {
 

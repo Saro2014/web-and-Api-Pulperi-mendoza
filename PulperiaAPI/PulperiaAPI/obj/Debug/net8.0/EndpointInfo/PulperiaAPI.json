@@ -91,6 +91,28 @@
         }
       }
     },
+    "/api/Productos/categoria/{categoria}": {
+      "get": {
+        "tags": [
+          "Productos"
+        ],
+        "parameters": [
+          {
+            "name": "categoria",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Ventas/finalizar": {
       "post": {
         "tags": [

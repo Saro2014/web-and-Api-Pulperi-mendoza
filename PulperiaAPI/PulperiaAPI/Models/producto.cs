@@ -28,6 +28,7 @@ namespace PulperiaAPI.Models
 
         public string Descripcion { get; set; } = string.Empty;
 
+        [Column("destacados")]
         public bool Destacado { get; set; }
     }
 }

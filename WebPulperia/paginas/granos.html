@@ -10,33 +10,54 @@
 
 <header>
     <nav>
-     <h2>🛒 Pulpería Mendoza</h2>
 
-    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <!-- IZQUIERDA (ADMIN) -->
+        <div class="nav-izquierda">
+            <div id="menuAdmin" style="display:none; position:relative;">
+                <button onclick="toggleAdminMenu()">⚙️</button>
 
-    <ul id="menu">
-        <li><a href="../index.html">Inicio</a></li>
+                <div id="adminOpciones">
+                    <p><a href="#">Ventas</a></p>
+                    <p><a href="#">Inventario</a></p>
+                    <p><a href="#">Usuarios</a></p>
+                    <p><button onclick="logout()">Salir</button></p>
+                </div>
+            </div>
+        </div>
 
-        <li class="dropdown">
-            <a href="#" onclick="toggleSubmenu(event)">Productos</a>
+        <!-- CENTRO (MENÚ) -->
+        <ul id="menu">
+            <li><a href="../Index.html">Inicio</a></li>
 
-            <ul class="submenu">
-                <li><a href="../Paginas/granos.html">Granos</a></li>
-                <li><a href="aceites.html">Aceites</a></li>
-                <li><a href="bebidas.html">Bebidas</a></li>
-                <li><a href="limpieza.html">Limpieza</a></li>
-                <li><a href="ropa.html">Ropa</a></li>
-                <li><a href="verduras.html">Verduras</a></li>
-                <li><a href="lacteos.html">Lácteos</a></li>
-                <li><a href="carnes.html">Carnes</a></li>
-            </ul>
-        </li>
+            <li class="dropdown">
+                <a href="#">Productos</a>
+                <ul class="submenu">
+                    <li><a href="../paginas/granos.html">🌾 Granos</a></li>
+                    <li><a href="paginas/aceites.html">🛢️ Aceites</a></li>
+                    <li><a href="paginas/bebidas.html">🥤 Bebidas</a></li>
+                    <li><a href="paginas/limpieza.html">🧼 Limpieza</a></li>
+                    <li><a href="paginas/ropa.html">👕 Ropa</a></li>
+                    <li><a href="paginas/verduras.html">🥦 Verduras</a></li>
+                    <li><a href="paginas/lacteos.html">🥛 Lácteos</a></li>
+                    <li><a href="paginas/carnes.html">🍗 Carnes</a></li>
+                </ul>
+            </li>
 
-        <li><a href="contacto.html">Atención</a></li>
-        <li><a href="../paginas/login.html">Login</a></li>
-    </ul>
+            <li><a href="paginas/contacto.html">Atención</a></li>
+            <li id="btnLogin"><a href="../paginas/login.html">Login</a></li>
 
-        <!-- CARRITO -->
+           <li id="usuarioInfo" class="dropdown" style="display:none;">
+
+                <a href="#" id="nombreUsuario"></a>
+
+                <ul class="submenu" id="submenuUsuario">
+                    <li><a href="#" onclick="logout()">Cerrar sesión</a></li>
+                </ul>
+
+            </li>
+        </ul>
+
+        <!-- DERECHA (CARRITO) -->
         <div class="nav-derecha">
             <div class="carrito-icono" onclick="irCarrito()">
                 🛒
@@ -49,10 +70,11 @@
 
 <h1>Granos</h1>
 
-<div id="contenedorProductos" class="grid"></div>
+<div id="contenedorProductos" class="grid" data-categoria="Grano"></div>
 
 <script src="../js/app.js"></script>
 
+<!-- 🔥 FOOTER -->
 <footer class="footer">
     <div class="footer-contenido">
 
@@ -63,7 +85,7 @@
 
         <div>
             <h4>Contacto</h4>
-            <p>📍 Nicaragua Barrio San Cristobal 3 Cuadras al sur 1/2 abajo, 1/2 al sur, calle #7</p>
+            <p>📍 Nicaragua Barrio San Cristobal...</p>
             <p>📞 8359-0578</p>
         </div>
 
@@ -77,5 +99,6 @@
     </div>
 
     <p class="copy">© 2026 Pulpería Mendoza</p>
+</footer>
 </body>
 </html>

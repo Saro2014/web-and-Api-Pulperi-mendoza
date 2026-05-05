@@ -50,5 +50,24 @@ namespace PulperiaAPI.Controllers
 
             return Ok(productos);
         }
+        [HttpGet("categoria/{categoria}")]
+        public IActionResult ObtenerPorCategoria(string categoria)
+        {
+            var productos = _context.Productos
+                .Where(p => p.TipoProducto == categoria)
+                .Select(p => new
+                {
+                    idProducto = p.IDProductos,
+                    nombre = p.NombreProducto,
+                    precio = p.PrecioVenta,
+                    stock = p.Stock,
+                    categoria = p.TipoProducto,
+                    imagen = p.Imagen ?? "/Imagenes/pulperiaimagenes/default.jpg",
+                    descripcion = p.Descripcion ?? "Sin descripción"
+                })
+                .ToList();
+
+            return Ok(productos);
+        }
     }
 }

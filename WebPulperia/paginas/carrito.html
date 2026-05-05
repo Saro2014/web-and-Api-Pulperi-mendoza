@@ -10,33 +10,59 @@
 
 <header>
     <nav>
-        <h2>🛒 Pulpería Mendoza</h2>
 
+        <!-- IZQUIERDA (ADMIN) -->
+        <div class="nav-izquierda">
+            <div id="menuAdmin" style="display:none; position:relative;">
+                <button onclick="toggleAdminMenu()">⚙️</button>
+
+                <div id="adminOpciones">
+                    <p><a href="#">Ventas</a></p>
+                    <p><a href="#">Inventario</a></p>
+                    <p><a href="#">Usuarios</a></p>
+                    <p><button onclick="logout()">Salir</button></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- CENTRO (MENÚ) -->
         <ul id="menu">
             <li><a href="../index.html">Inicio</a></li>
 
             <li class="dropdown">
                 <a href="#">Productos</a>
                 <ul class="submenu">
-                    <li><a href="granos.html">Granos</a></li>
-                    <li><a href="aceites.html">Aceites</a></li>
-                    <li><a href="bebidas.html">Bebidas</a></li>
-                    <li><a href="limpieza.html">Limpieza</a></li>
-                    <li><a href="ropa.html">Ropa</a></li>
-                    <li><a href="verduras.html">Verduras</a></li>
-                    <li><a href="lacteos.html">Lácteos</a></li>
-                    <li><a href="carnes.html">Carnes</a></li>
+                    <li><a href="../paginas/granos.html">🌾 Granos</a></li>
+                    <li><a href="paginas/aceites.html">🛢️ Aceites</a></li>
+                    <li><a href="paginas/bebidas.html">🥤 Bebidas</a></li>
+                    <li><a href="paginas/limpieza.html">🧼 Limpieza</a></li>
+                    <li><a href="paginas/ropa.html">👕 Ropa</a></li>
+                    <li><a href="paginas/verduras.html">🥦 Verduras</a></li>
+                    <li><a href="paginas/lacteos.html">🥛 Lácteos</a></li>
+                    <li><a href="paginas/carnes.html">🍗 Carnes</a></li>
                 </ul>
             </li>
 
-            <li><a href="contacto.html">Atención</a></li>
-            <li><a href="../paginas/login.html">Login</a></li>
+            <li><a href="paginas/contacto.html">Atención</a></li>
+            <li id="btnLogin"><a href="../paginas/login.html">Login</a></li>
+
+           <li id="usuarioInfo" class="dropdown" style="display:none;">
+
+                <a href="#" id="nombreUsuario"></a>
+
+                <ul class="submenu" id="submenuUsuario">
+                    <li><a href="#" onclick="logout()">Cerrar sesión</a></li>
+                </ul>
+
+            </li>
         </ul>
 
-        <!-- CARRITO -->
-        <div class="carrito-icono" onclick="irCarrito()">
-            🛒
-            <span id="contador">0</span>
+        <!-- DERECHA (CARRITO) -->
+        <div class="nav-derecha">
+            <div class="carrito-icono" onclick="irCarrito()">
+                🛒
+                <span id="contador">0</span>
+            </div>
         </div>
 
     </nav>
