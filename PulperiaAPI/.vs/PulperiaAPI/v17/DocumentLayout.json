@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{44414D33-460E-4548-B350-3A14616CF073}|PulperiaAPI\\PulperiaAPI.csproj|solutionrelative:pulperiaapi\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{44414D33-460E-4548-B350-3A14616CF073}|PulperiaAPI\\PulperiaAPI.csproj|c:\\users\\carme\\source\\repos\\pulperiaapi\\pulperiaapi\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44414D33-460E-4548-B350-3A14616CF073}|PulperiaAPI\\PulperiaAPI.csproj|solutionrelative:pulperiaapi\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{44414D33-460E-4548-B350-3A14616CF073}|PulperiaAPI\\PulperiaAPI.csproj|c:\\users\\carme\\source\\repos\\pulperiaapi\\pulperiaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{44414D33-460E-4548-B350-3A14616CF073}|PulperiaAPI\\PulperiaAPI.csproj|solutionrelative:pulperiaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44414D33-460E-4548-B350-3A14616CF073}|PulperiaAPI\\PulperiaAPI.csproj|c:\\users\\carme\\source\\repos\\pulperiaapi\\pulperiaapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44414D33-460E-4548-B350-3A14616CF073}|PulperiaAPI\\PulperiaAPI.csproj|solutionrelative:pulperiaapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44414D33-460E-4548-B350-3A14616CF073}|PulperiaAPI\\PulperiaAPI.csproj|c:\\users\\carme\\source\\repos\\pulperiaapi\\pulperiaapi\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44414D33-460E-4548-B350-3A14616CF073}|PulperiaAPI\\PulperiaAPI.csproj|solutionrelative:pulperiaapi\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44414D33-460E-4548-B350-3A14616CF073}|PulperiaAPI\\PulperiaAPI.csproj|c:\\users\\carme\\source\\repos\\pulperiaapi\\pulperiaapi\\models\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -68,7 +68,7 @@
               "RelativeDocumentMoniker": "PulperiaAPI\\Controllers\\ProductosController.cs",
               "ToolTip": "C:\\Users\\carme\\source\\repos\\PulperiaAPI\\PulperiaAPI\\Controllers\\ProductosController.cs",
               "RelativeToolTip": "PulperiaAPI\\Controllers\\ProductosController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-05T04:17:24.619Z",
               "EditorCaption": ""
@@ -83,8 +83,7 @@
               "RelativeToolTip": "PulperiaAPI\\Models\\DetalleFactura.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T03:43:57.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-05T03:43:57.667Z"
             },
             {
               "$type": "Document",
@@ -96,18 +95,17 @@
               "RelativeToolTip": "PulperiaAPI\\Models\\Factura.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T03:43:37.471Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-05T03:43:37.471Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "producto.cs",
               "DocumentMoniker": "C:\\Users\\carme\\source\\repos\\PulperiaAPI\\PulperiaAPI\\Models\\producto.cs",
               "RelativeDocumentMoniker": "PulperiaAPI\\Models\\producto.cs",
               "ToolTip": "C:\\Users\\carme\\source\\repos\\PulperiaAPI\\PulperiaAPI\\Models\\producto.cs",
               "RelativeToolTip": "PulperiaAPI\\Models\\producto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-05T03:43:09.733Z",
               "EditorCaption": ""
@@ -134,8 +132,7 @@
               "RelativeToolTip": "PulperiaAPI\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAowBgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T03:18:20.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-04T03:18:20.395Z"
             },
             {
               "$type": "Document",
@@ -147,12 +144,11 @@
               "RelativeToolTip": "PulperiaAPI\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T03:16:52.114Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-04T03:16:52.114Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\carme\\source\\repos\\PulperiaAPI\\PulperiaAPI\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "PulperiaAPI\\Data\\AppDbContext.cs",
@@ -160,8 +156,7 @@
               "RelativeToolTip": "PulperiaAPI\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwCUAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T03:16:29.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-04T03:16:29.108Z"
             },
             {
               "$type": "Document",
@@ -177,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\carme\\source\\repos\\PulperiaAPI\\PulperiaAPI\\appsettings.json",
               "RelativeDocumentMoniker": "PulperiaAPI\\appsettings.json",
@@ -185,8 +180,7 @@
               "RelativeToolTip": "PulperiaAPI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-04T02:19:01.765Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-04T02:19:01.765Z"
             },
             {
               "$type": "Document",
@@ -198,8 +192,7 @@
               "RelativeToolTip": "PulperiaAPI\\Controllers\\VentasController.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAowGAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T03:45:24.105Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-05T03:45:24.105Z"
             },
             {
               "$type": "Document",

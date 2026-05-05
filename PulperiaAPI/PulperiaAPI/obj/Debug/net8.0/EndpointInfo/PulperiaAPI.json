@@ -79,6 +79,18 @@
         }
       }
     },
+    "/api/Productos/destacados": {
+      "get": {
+        "tags": [
+          "Productos"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Ventas/finalizar": {
       "post": {
         "tags": [

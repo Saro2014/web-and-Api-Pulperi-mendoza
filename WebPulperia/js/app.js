@@ -158,13 +158,11 @@ function logout() {
     window.location.href = "../index.html";
 }
 
-// ==========================
-// 🚀 INICIO SEGURO
-// ==========================
 document.addEventListener("DOMContentLoaded", () => {
     actualizarContador();
     verificarLogin();
     cargarProductos();
+    cargarDestacados();
 });
 
 // ===== MOSTRAR CARRITO SOLO EN carrito.html =====
@@ -381,4 +379,40 @@ function cargarProductos() {
             console.log("Error cargando productos:", error);
         });
 
+}
+function cargarDestacados() {
+
+    let contenedor = document.getElementById("destacados");
+
+    if (!contenedor) return;
+
+    fetch("https://localhost:7165/api/productos/destacados")
+        .then(res => res.json())
+        .then(productos => {
+
+            contenedor.innerHTML = "";
+
+            productos.forEach(p => {
+
+                contenedor.innerHTML += `
+                    <div class="card producto-card">
+
+                        <img src="${p.imagen}">
+                        <h3>${p.nombre}</h3>
+                        <p class="precio">C$${p.precio}</p>
+
+                        <div class="producto-info">
+                            <p>${p.descripcion}</p>
+                        </div>
+
+                        <button class="btn-comprar"
+                            onclick="agregarCarrito(${p.idProducto}, '${p.nombre}', ${Number(p.precio)}, '${p.imagen}')">
+                            Agregar
+                        </button>
+
+                    </div>
+                `;
+            });
+
+        });
 }
