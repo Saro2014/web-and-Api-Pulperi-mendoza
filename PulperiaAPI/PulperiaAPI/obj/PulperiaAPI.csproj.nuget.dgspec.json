@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Brosiris\\Downloads\\web-and-Api-Pulperi-mendoza-main\\PulperiaAPI\\PulperiaAPI\\PulperiaAPI.csproj": {}
+    "C:\\Users\\Brosiris\\Documents\\GitHub\\web-and-Api-Pulperi-mendoza\\PulperiaAPI\\PulperiaAPI\\PulperiaAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Brosiris\\Downloads\\web-and-Api-Pulperi-mendoza-main\\PulperiaAPI\\PulperiaAPI\\PulperiaAPI.csproj": {
+    "C:\\Users\\Brosiris\\Documents\\GitHub\\web-and-Api-Pulperi-mendoza\\PulperiaAPI\\PulperiaAPI\\PulperiaAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Brosiris\\Downloads\\web-and-Api-Pulperi-mendoza-main\\PulperiaAPI\\PulperiaAPI\\PulperiaAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Brosiris\\Documents\\GitHub\\web-and-Api-Pulperi-mendoza\\PulperiaAPI\\PulperiaAPI\\PulperiaAPI.csproj",
         "projectName": "PulperiaAPI",
-        "projectPath": "C:\\Users\\Brosiris\\Downloads\\web-and-Api-Pulperi-mendoza-main\\PulperiaAPI\\PulperiaAPI\\PulperiaAPI.csproj",
+        "projectPath": "C:\\Users\\Brosiris\\Documents\\GitHub\\web-and-Api-Pulperi-mendoza\\PulperiaAPI\\PulperiaAPI\\PulperiaAPI.csproj",
         "packagesPath": "C:\\Users\\Brosiris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Brosiris\\Downloads\\web-and-Api-Pulperi-mendoza-main\\PulperiaAPI\\PulperiaAPI\\obj\\",
+        "outputPath": "C:\\Users\\Brosiris\\Documents\\GitHub\\web-and-Api-Pulperi-mendoza\\PulperiaAPI\\PulperiaAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

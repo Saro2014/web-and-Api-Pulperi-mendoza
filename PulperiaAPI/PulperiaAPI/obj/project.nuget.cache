@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AcMWTZHy7eI=",
+  "dgSpecHash": "P7GCKjfS2zA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Brosiris\\Downloads\\web-and-Api-Pulperi-mendoza-main\\PulperiaAPI\\PulperiaAPI\\PulperiaAPI.csproj",
+  "projectFilePath": "C:\\Users\\Brosiris\\Documents\\GitHub\\web-and-Api-Pulperi-mendoza\\PulperiaAPI\\PulperiaAPI\\PulperiaAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Brosiris\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Brosiris\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

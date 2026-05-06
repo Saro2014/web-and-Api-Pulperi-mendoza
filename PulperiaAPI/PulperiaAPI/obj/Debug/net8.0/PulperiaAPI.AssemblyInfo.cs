@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PulperiaAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+902e79c4d40d5b092622ae8785e154742ffe72e4")]
 [assembly: System.Reflection.AssemblyProductAttribute("PulperiaAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PulperiaAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
